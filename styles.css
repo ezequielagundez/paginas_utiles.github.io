@@ -13,7 +13,7 @@
     text-align: center;
     font-size: 35px;
     color: white;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   .page-content{
@@ -21,7 +21,7 @@
     display: flex;
     width: 700px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -44,11 +44,39 @@
 
 .button:hover{
     border: 1px solid rgba(255, 255, 255, 0.568);
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(255, 255, 255, 0.041);
 }
 
 .buttonContext{
     width: 33%;
     display: flex;
     justify-content: center;
+}
+
+.content-audio{
+  display: flex;
+  width: 900px;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.185);
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+audio{
+  width: 180px;
+  height: 30px;
+}
+
+.content-audio-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-audio{
+  width: 150px;
+  height: 100px;
 }
