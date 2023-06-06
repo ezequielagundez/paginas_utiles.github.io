@@ -29,11 +29,25 @@ h2{
   
 }
 
+h3{
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+ .container{
+  display: flex;
+  width: 1400px;
+  justify-content: center;
+  margin: auto;
+ }
+
   .page-content{
     
     display: flex;
     width: 700px;
-    margin: auto;
+    
     margin-top: 40px;
     justify-content: center;
     flex-wrap: wrap;
@@ -76,6 +90,18 @@ h2{
   border: 1px solid white;
   padding: 20px;
   border-radius: 5px;
+}
+
+.content-app{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+.img-app{
+  border-radius: 20px;
+  width: 155px;
+  height: 70px;
 }
 
 audio{
