@@ -35,6 +35,7 @@ h3{
   font-size: 20px;
   margin-top: 40px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .widget{
@@ -109,13 +110,34 @@ h3{
   width: 155px;
   height: 70px;
   border: 1px solid white;
-  transition: border-radius 0.3s ease;
+  transition: border-radius 0.1s ease;
 }
 .img-app:hover{
   border-radius: 200px;
   border: 1px solid white;
  
 }
+
+table{
+  border: 1px solid white;
+  margin: auto;
+  padding: 8px;
+   background-color: rgba(255, 255, 255, 0.171);
+}
+
+th{
+  font-size: 16px;
+    color: #161669;
+    padding: 10px;
+}
+td{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 75px;
+}
+
 
 audio{
   width: 180px;

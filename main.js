@@ -16,7 +16,7 @@ function mostrarHoraActual() {
   
     // Actualiza la hora cada segundo
     setTimeout(mostrarHoraActual, 1000);
-    console.log(horaActual);
+    
   }
   
   mostrarHoraActual();
@@ -39,3 +39,7 @@ function mostrarHoraActual() {
   
   mostrarFechaActual();
   
+
+
+  let numberFila = document.querySelectorAll('td')
+  console.log(numberFila);
