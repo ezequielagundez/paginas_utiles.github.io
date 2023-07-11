@@ -1,11 +1,12 @@
 *{
     font-family: monospace;
+    color: #333333;
   }
   
   
   body{
-    background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(48,44,124,1) 100%);
+    background-image: linear-gradient(180deg, #db77f3 0, #ba82f7 25%, #9b6ef5 50%, #7556d7 75%, #7365b9 100%);
+    height: 100vh;
   }
   .content-fecha{
     display: flex;
@@ -39,9 +40,10 @@ h3{
 }
 
 .widget{
-  background-color: rgb(63,94,251);
+  background-color:#8a69e3;
   padding: 10px;
   border: 1PX solid white;
+  border-radius: 7px;
 }
  .container{
   display: flex;
@@ -63,7 +65,7 @@ h3{
   .button{
     display: flex;
     justify-content: center;
-    color: white;
+    color: #575757;
     font-size: 15px;
     background-color: rgba(255, 255, 255, 0.171);
     padding: 15px 5px;
