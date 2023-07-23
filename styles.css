@@ -79,8 +79,9 @@ h3{
 }
 
 .button:hover{
-    border: 1px solid rgba(255, 255, 255, 0.568);
-    background-color: rgba(255, 255, 255, 0.041);
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    background-color: rgba(255, 255, 255, 0.637);
+    color: #000000c4;
 }
 
 .buttonContext{
